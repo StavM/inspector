@@ -1,0 +1,56 @@
+body, .dark-theme {
+	background: #181a20;
+	color: #e0e0e0;
+	font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 1rem;
+}
+
+.dark-theme h2, .dark-theme h3 {
+	color: #90caf9;
+}
+
+.dark-theme input, .dark-theme textarea, .dark-theme button {
+	background: #23272f;
+	color: #e0e0e0;
+	border: 1px solid #333;
+	border-radius: 4px;
+	padding: 6px 10px;
+	margin-bottom: 8px;
+}
+
+.dark-theme button {
+	background: #1976d2;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.dark-theme button:hover {
+	background: #1565c0;
+}
+
+.dark-theme table {
+	background: #23272f;
+	color: #e0e0e0;
+	border: 1px solid #333;
+}
+.dark-theme th, .dark-theme td {
+	border: 1px solid #333;
+	padding: 8px;
+}
+.dark-theme th {
+	background: #21232b;
+	color: #90caf9;
+}
+.dark-theme tr:nth-child(even) {
+	background: #20232a;
+}
+.dark-theme ul {
+	padding-left: 20px;
+}
+.dark-theme textarea {
+	resize: vertical;
+}
+.dark-theme .error {
+	color: #ef5350;
+}
